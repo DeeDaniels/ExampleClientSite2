@@ -1,0 +1,308 @@
+*{
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* general formatting & styling, header*/
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.sectionLarge, .sectionSlim, header{
+  border: 1px solid transparent;
+  width: 100%;
+  /* overflow: auto; */
+  position: relative;
+}
+.sectionLarge{
+  height: 604px;
+  top: 18px;
+}
+.sectionSlim{
+  height: 321px;
+}
+ul{
+  list-style-type: none;
+}
+nav ul li{
+  display: inline;
+  padding-left: 6%;
+}
+.differentColorBkgd{
+  background-color: gray;
+}
+.giveUsUrEmail{
+  top: 18px;
+  position: relative;
+}
+.apply{
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-left: 31px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+}
+/* SECTION 1 */
+.grayWoman{
+  width: 50%;
+  height:321px;
+  float: left;
+}
+.sectionSlimText{
+  width: 50%;
+  height:321px;
+  float: left;
+}
+.logo{
+  height: auto;
+  width: 38%;
+  position: relative;
+  margin-left: 13%;
+}
+.sectionSlim h1, .specialIndention span{
+  margin-left: 3%;
+}
+.widenInput{
+  padding-bottom: 7px;
+  padding-right: 200px;
+  bottom: -10px;
+  position: relative;
+}
+.widenButton{
+  padding-bottom: 7px;
+  padding-right: 30px;
+  background-color: darkgray;
+  color: white;
+  top: 10px;
+  position: relative;
+}
+/* SECTION 2 */
+.sectionSlim h3{
+  text-align: center;
+  /* position: relative;
+  left: 16%; */
+}
+.rightLineText{
+  left: 53%;
+  position: relative;
+  top: 35px;
+ }
+ /*
+.leftLine{
+  margin-left: 8%;
+  margin-right: 54%;
+  margin-top: -9px;
+} */
+.leftLineText{
+  margin-left: 8%;
+  position: relative;
+  top: -19px;
+}
+.descripLine{
+  text-align: center;
+  margin-top: 47px;
+  position: absolute;
+  margin-left: 18%;
+  font-size: 14px;
+}
+/* SECTION 3 */
+.sectionLargePics{
+  display: block;
+  float:right;
+  margin-right: -129px;
+}
+.largerPic{
+  height:auto;
+  width:50%;
+}
+.sectionLargeText{
+  margin-left: 46px;
+}
+/* SECTION 4 */
+.founderPic{
+  height: auto;
+  width:18%;
+  float: left;
+  margin-left: 3%;
+}
+.specialSpacing{
+  text-align: center;
+}
+.bio{
+  position: relative;
+  margin-left: 23%;
+  margin-right: 9%;
+  margin-bottom: 60px;
+}
+.bioHead{
+  position: relative;
+  margin-left: 2%;
+}
+.fishLogo{
+  height: auto;
+  width:28%;
+  margin-left: 2%;
+}
+.fishFoundation{
+float:left;
+display: inline-block;
+font-size: 14px;
+}
+.fishFoundation p{
+  position: relative;
+  bottom: -8px;
+  margin-left: 3%;
+}
+.simmonsCollege{
+  float:right;
+  display: inline-block;
+  font-size: 14px;
+  bottom: 193px;
+  position: relative;
+  margin-right: 3%;
+}
+.simmonsLogo{
+  height: auto;
+  width: 28%;
+}
+/* FOOTER  */
+footer{
+  top: 17px;
+  position: relative;
+}
+.skyBlueFooter{
+  background-color: skyblue;
+  position: relative;
+  padding-top: 1px;
+}
+.blueFooter, .blueFooter a{
+  background-color: steelblue;
+  color: white;
+}
+.blueFooter ul{
+  float:left;
+}
+.horizontalList li{
+  float:left;
+  margin-right: 100px;
+  bottom: 79px;
+  position: relative;
+  /* background-color: steelblue; */
+}
+.widenFooterInput{
+  padding-bottom: 7px;
+  padding-right: 200px;
+  bottom: 6px;
+  position: relative;
+  left:33%;
+}
+.footerButton{
+  position: relative;
+  left: 33%;
+  background-color: skyblue;
+  color: white;
+}
+/* IPAD */
+@media (min-width:501px) and (max-width:770px){
+  .sectionLarge {
+    height: 682px;
+  }
+  .simmonsCollege {
+    float: none;
+    font-size: 14px;
+    bottom: 0px;
+    position: relative;
+}
+  .widenFooterInput {
+  left: 15%;
+}
+.rightLineText {
+  left: 17%;
+  top: 8px;
+}
+.leftLineText {
+  margin-left: 17%;
+  top: 29px;
+}
+.descripLine {
+  margin-left: 0%;
+}
+.footerButton {
+  left: 16%;
+  top: -3px;
+}
+.sectionLarge{
+  overflow: scroll;
+}
+.horizontalList{
+  bottom: -71px;
+  position: relative;
+}
+.grayWoman {
+    position: relative;
+    left: 9%;
+}
+.widenInput{
+  padding-right: 154px;
+}
+specialIndention span{
+    margin-left: 6%;
+}
+}
+/* MOBILE */
+@media only screen and (max-width:500px){
+.sectionSlim {
+  height: 402px;
+}
+
+.grayWoman{
+  display: none;
+}
+
+.leftLineText {
+    top: 0px;
+}
+.rightLineText {
+    left: 8%;
+    top: -4px;
+}
+.descripLine {
+    margin-left: 0%;
+  }
+.sectionLargeText p{
+font-size: 12px;
+}
+.sectionLarge {
+    height: 904px;
+    overflow: scroll;
+}
+
+.simmonsCollege {
+    float: none;
+    display: inherit;
+    bottom: 0px;
+}
+.widenFooterInput {
+    padding-bottom: 5px;
+    padding-right: 200px;
+    bottom: 0px;
+    position: relative;
+    left: 0%;
+  }
+  .sectionSlimText{
+    width:100%;
+  }
+  .widenButton{
+    right: -35%;
+  }
+  .horizontalList{
+    position: relative;
+    bottom: -61px;
+  }
+}
